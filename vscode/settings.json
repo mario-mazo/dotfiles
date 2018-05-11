@@ -1,0 +1,16 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 5000,
+    "go.formatOnSave": true,
+    "window.zoomLevel": 2,
+    
+    //elm
+    "elm.formatCommand": "elm-format-0.18"
+    //"elm.formatOnSave": true
+}
