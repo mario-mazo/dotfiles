@@ -1,0 +1,16 @@
+[user]
+        email = mario.mazo@<work.email>
+        name = Mario Mazo
+
+[includeIf "gitdir:~/personal/**"]
+    path = ~/personal/.gitconfig
+
+
+[includeIf "gitdir:~/go/**"]
+    path = ~/personal/.gitconfig
+
+
+
+# ~/personal/.gitconfig
+[user]
+    email = mario.mazo@<personal.email>
