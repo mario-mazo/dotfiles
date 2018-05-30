@@ -100,3 +100,16 @@ export PATH=$PATH:$HOME/bin
 # brew
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+
+plugins=(git brew history node npm kubectl)
+
+# aws accounts
+alias snaff_prod="export AWS_PROFILE=one-profile"
+alias snaff_staging="export AWS_PROFILE=another-profile"
+
+
+
+# kubernetes
+alias k="kubectl"
+alias khulk="export NAME=some-k8s-cluster.io && export KOPS_STATE_STORE=s3://some-k8s-cluster.io && export  KUBECONFIG=~/.kube/some-k8s-cluster.io && export BULLETTRAIN_KCTX_KCONFIG=/Users/mmazo/.kube/some-k8s-cluster.io"
+alias kadv="export NAME=some-k8s-cluster.io && export KOPS_STATE_STORE=s3://some-k8s-cluster.io && export  KUBECONFIG=~/.kube/some-k8s-cluster.io && export BULLETTRAIN_KCTX_KCONFIG=/Users/mmazo/.kube/some-k8s-cluster.io"
