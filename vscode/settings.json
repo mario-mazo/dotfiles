@@ -4,13 +4,13 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontFamily": "Fira Code",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
     "go.formatOnSave": true,
     "window.zoomLevel": 2,
     
     //elm
-    "elm.formatCommand": "elm-format-0.18"
+    "elm.formatCommand": "elm-format-0.19"
     //"elm.formatOnSave": true
 }
