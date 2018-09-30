@@ -1,8 +1,9 @@
 # Things to install
 
 ## Guides
-https://sourabhbajaj.com/mac-setup/
-https://gist.github.com/kevin-smets/8568070
+
+- https://sourabhbajaj.com/mac-setup/
+- https://gist.github.com/kevin-smets/8568070
 
 ## apps
 Install brew
@@ -17,8 +18,7 @@ Install brew
 - brew cask install stretchly
 
 ## fonts
-https://github.com/powerline/fonts/tree/master/SourceCodePro
-https://github.com/tonsky/FiraCode
 
+- https://github.com/powerline/fonts/tree/master/SourceCodePro
+- https://github.com/tonsky/FiraCode
 
-#
