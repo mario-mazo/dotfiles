@@ -16,6 +16,9 @@
 - brew cask install visual-studio-code
 - install oh-my-sh
 
+## ~/.gitignore
+- https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
+
 ## fonts
 
 - https://github.com/tonsky/FiraCode
