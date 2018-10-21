@@ -13,6 +13,7 @@
 - brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
 - brew cask install iterm2
 - brew cask install stretchly
+- brew cask install visual-studio-code
 - install oh-my-sh
 
 ## fonts
