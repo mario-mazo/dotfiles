@@ -14,6 +14,7 @@
 - brew cask install iterm2
 - brew cask install stretchly
 - brew cask install visual-studio-code
+- brew install golang
 - install oh-my-sh
 
 ## ~/.gitignore
