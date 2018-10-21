@@ -6,19 +6,16 @@
 - https://gist.github.com/kevin-smets/8568070
 
 ## apps
-Install brew
-- flux
-- Install spectacle
 - Install brew
-- kctx
+- brew cask install flux
+- brew cask install spectacle
+- brew install kctx
 - brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
-- chsh -s $(which zsh)
-- install oh-my-sh
 - brew cask install iterm2
 - brew cask install stretchly
+- install oh-my-sh
 
 ## fonts
 
-- https://github.com/powerline/fonts/tree/master/SourceCodePro
 - https://github.com/tonsky/FiraCode
 
