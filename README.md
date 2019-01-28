@@ -16,6 +16,7 @@
 - brew cask install visual-studio-code
 - brew install golang
 - install oh-my-sh
+- https://github.com/tekezo/Karabiner-Elements
 
 ## ~/.gitignore
 - https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
