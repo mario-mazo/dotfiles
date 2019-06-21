@@ -22,6 +22,6 @@
 - https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 
 ## fonts
-
+- https://hackernoon.com/how-to-trick-out-terminal-287c0e93fce0
 - https://github.com/tonsky/FiraCode
 
