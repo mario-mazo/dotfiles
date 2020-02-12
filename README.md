@@ -13,7 +13,6 @@
 - brew cask install iterm2
 - brew cask install stretchly
 - brew cask install visual-studio-code
-- brew install asdf
 - install oh-my-sh
 - https://github.com/tekezo/Karabiner-Elements
 
@@ -23,3 +22,15 @@
 ## theme with fonts
 - https://github.com/romkatv/powerlevel10k
 
+## asdf
+- brew install asdf
+- brew install coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac
+- brew cask install java
+- brew install gpg
+- bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
+- asdf plugin-add erlang
+- asdf plugin-add nodejs
+- asdf plugin-add elixir
+- asdf plugin-add golang
+- asdf plugin-add rust
