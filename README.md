@@ -38,3 +38,6 @@ Terminal looks good with JetBrains Mono 16, just no icons in the promt
 - asdf plugin-add elixir
 - asdf plugin-add golang
 - asdf plugin-add rust
+
+## elixir vscode
+- https://thinkingelixir.com/elixir-in-vs-code/
