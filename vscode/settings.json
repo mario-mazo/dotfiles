@@ -1,14 +1,16 @@
 {
     "telemetry.enableTelemetry": false,
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
+    "editor.letterSpacing": 1.2,
     "editor.minimap.enabled": false,
     "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 15,
     "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.letterSpacing": 1.2,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
 
     //golang
     // "go.formatOnSave": true,
