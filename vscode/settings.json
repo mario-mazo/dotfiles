@@ -1,16 +1,20 @@
-// Place your settings in this file to overwrite the default settings
 {
+    "telemetry.enableTelemetry": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
-    "go.formatOnSave": true,
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 0
+
+    //golang
+    // "go.formatOnSave": true,
     
     //elm
-    "elm.formatCommand": "elm-format-0.19"
+    //"elm.formatCommand": "elm-format-0.19"
     //"elm.formatOnSave": true
+
 }
