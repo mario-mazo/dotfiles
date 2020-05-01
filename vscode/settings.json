@@ -1,7 +1,7 @@
 {
     "telemetry.enableTelemetry": false,
     "editor.fontFamily": "JetBrains Mono",
-    "editor.fontSize": 15,
+    "editor.fontSize": 13,
     "editor.letterSpacing": 1.2,
     "editor.minimap.enabled": false,
     "editor.fontLigatures": true,
@@ -10,13 +10,48 @@
     "terminal.integrated.letterSpacing": 1.2,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 5000,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "dark+(elixir)",
+    "typescript.tsserver.watchOptions": {
 
+    },
+    //------------ELIXIR----------------
+    // "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.parameterHints.cycle": true,
+    "editor.renderControlCharacters": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 100,
+    "[json]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "elixirLS.fetchDeps": false,
+    "[HTML (EEx)]": {},
+    "files.associations": {
+        "*.js": "javascript",
+        "*.ex": "elixir",
+        "*.exs": "elixir",
+        "*.eex": "HTML (EEx)",
+        "*.leex": "HTML (EEx)",
+        "*.html.EEx": "HTML (EEx)"
+    },
+    "beautify.language": {
+        "js": [],
+        "css": [],
+        "html": [
+            "HTML (EEx)"
+        ]
+    },
+    "emmet.includeLanguages": {
+        "HTML (EEx)": "html"
+    }
+    //-----------------------------
     //golang
     // "go.formatOnSave": true,
-    
     //elm
     //"elm.formatCommand": "elm-format-0.19"
     //"elm.formatOnSave": true
-
 }
