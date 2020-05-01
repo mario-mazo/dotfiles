@@ -41,3 +41,4 @@ Terminal looks good with JetBrains Mono 16, just no icons in the promt
 
 ## elixir vscode
 - https://thinkingelixir.com/elixir-in-vs-code/
+- https://dev.to/joseph_lozano/my-mac-setup-2020-for-elixir-and-phoenix-development-390k
