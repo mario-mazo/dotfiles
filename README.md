@@ -42,3 +42,18 @@ Terminal looks good with JetBrains Mono 16, just no icons in the promt
 ## elixir vscode
 - https://thinkingelixir.com/elixir-in-vs-code/
 - https://dev.to/joseph_lozano/my-mac-setup-2020-for-elixir-and-phoenix-development-390k
+- https://medium.com/@abadon.gutierrez/elixir-development-with-visual-studio-code-16b923e82653
+
+## vscode
+
+```
+❯ code --list-extensions | xargs -L 1 echo code --install-extension
+code --install-extension aliariff.auto-add-brackets
+code --install-extension eamodio.gitlens
+code --install-extension elixir-lsp.elixir-ls
+code --install-extension HookyQR.beautify
+code --install-extension kkalita.dark-plus-elixir
+code --install-extension lonefy.vscode-JS-CSS-HTML-formatter
+code --install-extension ow.vscode-subword-navigation
+code --install-extension stkb.rewrap
+```
