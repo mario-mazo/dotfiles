@@ -13,9 +13,8 @@
     "window.zoomLevel": 2,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.colorTheme": "dark+(elixir)",
-    "typescript.tsserver.watchOptions": {
-
-    },
+    "typescript.tsserver.watchOptions": {},
+    "explorer.openEditors.visible": 0,
     //------------ELIXIR----------------
     // "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
@@ -29,24 +28,24 @@
         "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
     },
     "elixirLS.fetchDeps": false,
-    "[HTML (EEx)]": {},
+    "[html-eex]": {},
     "files.associations": {
         "*.js": "javascript",
         "*.ex": "elixir",
         "*.exs": "elixir",
-        "*.eex": "HTML (EEx)",
-        "*.leex": "HTML (EEx)",
-        "*.html.EEx": "HTML (EEx)"
+        "*.eex": "html-eex",
+        "*.leex": "html-eex",
+        "*.html.EEx": "html-eex"
     },
     "beautify.language": {
         "js": [],
         "css": [],
         "html": [
-            "HTML (EEx)"
+            "html-eex"
         ]
     },
     "emmet.includeLanguages": {
-        "HTML (EEx)": "html"
+        "html-eex": "html"
     }
     //-----------------------------
     //golang
