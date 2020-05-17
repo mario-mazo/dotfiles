@@ -51,8 +51,9 @@ Terminal looks good with JetBrains Mono 16, just no icons in the promt
 code --install-extension aliariff.auto-add-brackets
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension eamodio.gitlens
-code --install-extension elixir-lsp.elixir-ls
 code --install-extension HookyQR.beautify
+code --install-extension iampeterbanjo.elixirlinter
+code --install-extension JakeBecker.elixir-ls
 code --install-extension kkalita.dark-plus-elixir
 code --install-extension lonefy.vscode-JS-CSS-HTML-formatter
 code --install-extension ow.vscode-subword-navigation
