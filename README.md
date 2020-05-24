@@ -60,3 +60,11 @@ code --install-extension ow.vscode-subword-navigation
 code --install-extension stkb.rewrap
 
 ```
+
+## Add developer tools to system-preferences / security & privacy / privacy
+
+In settings, in system-preferences / security & privacy / privacy , there is a permission called "Developer Tools". if i add Terminal to that permission, the slowdown does not happen anymore.
+
+https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/
+
+
