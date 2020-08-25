@@ -29,10 +29,10 @@ Terminal looks good with JetBrains Mono 16, just no icons in the promt
 ## asdf
 - brew install asdf
 - brew install coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac
-- brew cask install java
 - brew install gpg
 - bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
+- asdf plugin add java #install tls 11
 - asdf plugin-add erlang
 - asdf plugin-add nodejs
 - asdf plugin-add elixir
