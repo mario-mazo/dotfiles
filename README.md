@@ -4,7 +4,7 @@
 
 - https://sourabhbajaj.com/mac-setup/
 - https://gist.github.com/kevin-smets/8568070
-- https://www.sharmaprakash.com.np/guake-like-dropdown-terminal-in-mac/ use `Cmd + ``
+- https://www.sharmaprakash.com.np/guake-like-dropdown-terminal-in-mac/ use Cmd + `
 
 ## apps
 - Install brew
