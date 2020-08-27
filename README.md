@@ -4,6 +4,7 @@
 
 - https://sourabhbajaj.com/mac-setup/
 - https://gist.github.com/kevin-smets/8568070
+- https://www.sharmaprakash.com.np/guake-like-dropdown-terminal-in-mac/ use `Cmd + ``
 
 ## apps
 - Install brew
@@ -14,7 +15,7 @@
 - brew cask install stretchly
 - brew cask install visual-studio-code
 - install oh-my-sh
-- https://github.com/tekezo/Karabiner-Elements
+
 
 ## ~/.gitignore
 - https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
