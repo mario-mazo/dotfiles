@@ -71,7 +71,7 @@ https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/
 
 ## Rename master to main in git
 
-in `.gitconfig` add:
+to add `main` as default branch in `.gitconfig` execute
 
 ```
 git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/main'
