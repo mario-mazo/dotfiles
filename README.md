@@ -69,3 +69,13 @@ In settings, in system-preferences / security & privacy / privacy , there is a p
 https://sigpipe.macromates.com/2020/macos-catalina-slow-by-design/
 
 
+## Rename master to main in git
+
+in `.gitconfig` add:
+
+```
+git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/main'
+```
+
+
+
