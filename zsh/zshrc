@@ -119,7 +119,7 @@ alias ls="ls -FG"
 export PATH=$PATH:$HOME/bin
 
 # elixir
-KERL_CONFIGURE_OPTIONS="--disable-debug --without-javac"
+# KERL_CONFIGURE_OPTIONS="--disable-debug --without-javac"
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 # asdf
