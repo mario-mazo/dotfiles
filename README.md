@@ -77,5 +77,25 @@ to add `main` as default branch in `.gitconfig` execute
 git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/main'
 ```
 
+## Amethyist
+
+- set window margins to 10px
+- set focus follows mounse
+
+### remap:
+
+Note: When a shortcut is take it doesnt allow you to add the new one
+
+- increase main pane count -> `nil`
+- decrease main pane count -> `nil`
+- Option Shift O -> `Tall Right`
+- Option Shift U -> `Full screen`
+- Option Shift . -> `Throw focused window to the left`
+- Option Shift , -> `Throw focused window to the right`
+
+
+
+
+
 
 
