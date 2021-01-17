@@ -93,6 +93,33 @@ Note: When a shortcut is take it doesnt allow you to add the new one
 - Option Shift . -> `Throw focused window to the left`
 - Option Shift , -> `Throw focused window to the right`
 
+### limelight
+
+- https://github.com/koekeishiya/limelight and compile to `~/bin`
+- in `~/config/limelight`
+
+```
+limelight -m config width            4
+limelight -m config radius           0
+limelight -m config placement        interior
+#limelight -m config active_color     0xff8ebb70
+limelight -m config active_color     0xff8ef670
+limelight -m config normal_color     0xff555555
+
+echo "limelight configuration loaded.."
+```
+
+- in `~/bin/start_limelight`
+
+```
+#!/usr/bin/env sh
+# kill any existing limelight process if one exists, before we launch a new one
+killall limelight &> /dev/null
+limelight -c  ~/.config/limelight/config &> /dev/null &
+```
+
+
+
 
 
 
