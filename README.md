@@ -79,7 +79,6 @@ git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/mai
 
 ## Amethyist
 
-- set window margins to 10px
 - set focus follows mounse
 
 ### remap:
