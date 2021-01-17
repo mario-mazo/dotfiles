@@ -96,7 +96,7 @@ Note: When a shortcut is take it doesnt allow you to add the new one
 ### limelight
 
 - https://github.com/koekeishiya/limelight and compile to `~/bin`
-- in `~/config/limelight`
+- in `~/.config/limelight/config`
 
 ```
 limelight -m config width            4
