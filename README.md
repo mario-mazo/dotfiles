@@ -90,8 +90,8 @@ Note: When a shortcut is take it doesnt allow you to add the new one
 - decrease main pane count -> `nil`
 - Option Shift O -> `Tall Right`
 - Option Shift U -> `Full screen`
-- Option Shift . -> `Throw focused window to the left`
-- Option Shift , -> `Throw focused window to the right`
+- Option Shift . -> `Throw focused window to the right`
+- Option Shift , -> `Throw focused window to the left`
 
 ### limelight
 
@@ -109,7 +109,8 @@ limelight -m config normal_color     0xff555555
 echo "limelight configuration loaded.."
 ```
 
-- in `~/bin/start_limelight`
+- in `~/bin/start_limelight.command`. Add it to startup items in preferences so limelight starts on login
+this will create an terminal window, that can be closed later on
 
 ```
 #!/usr/bin/env sh
@@ -117,6 +118,7 @@ echo "limelight configuration loaded.."
 killall limelight &> /dev/null
 limelight -c  ~/.config/limelight/config &> /dev/null &
 ```
+
 
 
 
