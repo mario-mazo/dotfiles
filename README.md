@@ -80,6 +80,8 @@ git config --global alias.new '!git init && git symbolic-ref HEAD refs/heads/mai
 ## Amethyist
 
 - set focus follows mounse
+- 10px margin
+- disable _restore layouts on launch_
 
 ### remap:
 
