@@ -102,7 +102,7 @@ Note: When a shortcut is take it doesnt allow you to add the new one
 ```
 limelight -m config width            4
 limelight -m config radius           0
-limelight -m config placement        interior
+limelight -m config placement        exterior
 #limelight -m config active_color     0xff8ebb70
 limelight -m config active_color     0xff8ef670
 limelight -m config normal_color     0xff555555
