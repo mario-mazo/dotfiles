@@ -29,7 +29,7 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
+(setq org-directory "~/repo/gdrive/org/")
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -68,16 +68,6 @@
 ;; startup default dired directory
 (setq default-directory "~")
 
-;; NOTE:
-;; use C-x z and keep using z for repeat, ie: `SPC w < C-x zzzzzzzz'
-;; (def-key evil-insert-state-map ">>" "->")
-;;
-;; Undo: in insert mode do C-u to use a more normal undo. If you use u
-;; in the normal mode it undos a shit ton of stuff becuase:
-;; All the changes done in one instance of Insert mode will be considered as one change.
-;; For instance, in Insert mode, you have made 3 changes and then shifted to normal mode.
-;; Now if you press `u' once, all the three changes will be undone.
-
 ;; useful elixir shortcut for my keybord layout
 ;; TODO: change `global-map' to `elixir-mode' to make it unique to elixir
 (evil-define-key 'insert global-map (kbd "C-.") "->")
@@ -91,11 +81,6 @@
 
 ;; Bind shift U keys for redo.
 (map! "<redo>" #'redo :n "U" #'redo)
-
-;; TODO create bug report with data from big sur and catalina
-;; https://github.com/hlissner/doom-emacs/issues/3461
-;; (map! :nv "C-d" #'evil-multiedit-match-symbol-and-next
-;; :nv "C-D" #'evil-multiedit-match-symbol-and-prev)
 
 ;; org-mode configuration
 (after! org
