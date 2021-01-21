@@ -52,3 +52,75 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; set my favorite font
+(setq doom-font (font-spec :family "JetBrains Mono" :size 20))
+
+;; use `jj' to exit insert mode and slow it down a bit to avoid false positives
+(setq evil-escape-key-sequence "jj"
+      evil-escape-delay 0.25)
+
+;; start up using my entire screen but not maximized
+(setq initial-frame-alist '((top . 0) (left . 0) (width . 169) (height . 50)))
+
+;; startup default dired directory
+(setq default-directory "~")
+
+;; NOTE:
+;; use C-x z and keep using z for repeat, ie: `SPC w < C-x zzzzzzzz'
+;; (def-key evil-insert-state-map ">>" "->")
+;;
+;; Undo: in insert mode do C-u to use a more normal undo. If you use u
+;; in the normal mode it undos a shit ton of stuff becuase:
+;; All the changes done in one instance of Insert mode will be considered as one change.
+;; For instance, in Insert mode, you have made 3 changes and then shifted to normal mode.
+;; Now if you press `u' once, all the three changes will be undone.
+
+;; useful elixir shortcut for my keybord layout
+;; TODO: change `global-map' to `elixir-mode' to make it unique to elixir
+(evil-define-key 'insert global-map (kbd "C-.") "->")
+
+(evil-define-key 'insert global-map (kbd "C-,") "|>")
+
+(evil-define-key 'insert global-map (kbd "C-;") "=>")
+
+;; pops up hunk from the fringe
+(map! (:leader (:prefix "g" :desc "Pop up hunk" :nv "h" #'git-gutter:popup-hunk)))
+
+;; Bind shift U keys for redo.
+(map! "<redo>" #'redo :n "U" #'redo)
+
+;; TODO create bug report with data from big sur and catalina
+;; https://github.com/hlissner/doom-emacs/issues/3461
+;; (map! :nv "C-d" #'evil-multiedit-match-symbol-and-next
+;; :nv "C-D" #'evil-multiedit-match-symbol-and-prev)
+
+;; org-mode configuration
+(after! org
+  (setq
+    org-todo-keywords
+         '((sequece "TODO:(t)"
+                    "IN-PROGRESS:(i)"
+                    "WAITING:(w)"
+                    "|"
+                    "DONE:(d)"
+                    "CANCELED:(c)"))
+
+    ;; sets the keyword colors to match the doom-theme
+    org-todo-keyword-faces
+    '(("TODO:" :foreground "#FD6464" :weight bold)
+     ("IN-PROGRESS:" :foreground "#8EB55E" :weight bold)
+     ("WAITING:" . org-warning))
+
+   ;; org-agenda-files (directory-files-recursively "~/org/agenda/" "\.org$")
+   ;; org-agenda-files (list "~/org/agenda/projects.org")
+  )
+)
+
+;; sets my default project  to `repo'
+(setq projectile-project-search-path #'("~/repo/") )
+
+;; ignore case for auto-complete in eshell
+(setq eshell-cmpl-ignore-case t)
