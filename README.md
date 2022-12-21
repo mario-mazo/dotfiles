@@ -120,6 +120,14 @@ killall limelight &> /dev/null
 limelight -c  ~/.config/limelight/config &> /dev/null &
 ```
 
+## Emacs
+- brew tap d12frosted/emacs-plus
+- brew install emacs-plus --with-native-comp --with-no-titlebar --with-modern-doom3-icon
+
+### doom
+- brew install fd ripgrep
+- install doom
+
 
 
 
