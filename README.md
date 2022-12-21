@@ -10,7 +10,7 @@
 - Install brew
 - brew cask install flux
 - brew cask install amethyst
-- brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
+- brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit
 - brew cask install iterm2
 - brew cask install stretchly
 - brew cask install visual-studio-code
