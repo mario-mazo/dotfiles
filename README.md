@@ -24,6 +24,8 @@
 - https://github.com/romkatv/powerlevel10k
 
 - https://www.jetbrains.com/lp/mono/
+- brew tap homebrew/cask-fonts
+- brew install --cask font-jetbrains-mono
 
 Terminal looks good with JetBrains Mono 16, just no icons in the promt
 
