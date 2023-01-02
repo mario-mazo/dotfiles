@@ -130,6 +130,11 @@ limelight -c  ~/.config/limelight/config &> /dev/null &
 - brew install fd ripgrep
 - install doom
 
+## nvim
+- https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
+- https://www.youtube.com/watch?v=stqUbv-5u2s
+- brew install neovim
+
 
 
 
