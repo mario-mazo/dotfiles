@@ -142,7 +142,7 @@ limelight -c  ~/.config/limelight/config &> /dev/null &
 ```
 brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship
 
-brew cask install flux amethyst iterm2 stretchly
+brew install --cask flux amethyst iterm2 stretchly
 
 
 brew tap homebrew/cask-fonts
