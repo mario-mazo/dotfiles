@@ -137,6 +137,21 @@ limelight -c  ~/.config/limelight/config &> /dev/null &
 
 
 
+## scripts
+
+```
+brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship
+
+brew cask install flux amethyst iterm2 stretchly
+
+
+brew tap homebrew/cask-fonts
+brew install --cask font-jetbrains-mono
+
+
+brew tap d12frosted/emacs-plus
+brew install emacs-plus --with-native-comp  --with-modern-doom3-icon
+```
 
 
 
