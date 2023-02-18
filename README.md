@@ -157,6 +157,8 @@ brew install font-hack-nerd-font
 
 
 curl -o ~/.gitignore https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore
+
+compaudit | xargs chmod g-w
 ```
 
 
