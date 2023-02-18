@@ -151,6 +151,9 @@ brew install --cask font-jetbrains-mono
 
 brew tap d12frosted/emacs-plus
 brew install emacs-plus --with-native-comp  --with-modern-doom3-icon
+
+
+curl -o ~/.gitignore https://raw.githubusercontent.com/github/gitignore/main/Global/macOS.gitignore
 ```
 
 
