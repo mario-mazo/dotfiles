@@ -13,7 +13,7 @@ xcode-select --install
 
 brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat
 
-brew install --cask flux amethyst iterm2 stretchly
+brew install --cask flux amethyst iterm2 stretchly brave-browser
 
 
 brew tap homebrew/cask-fonts
@@ -168,4 +168,7 @@ Notes:
 - https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
 - https://www.youtube.com/watch?v=stqUbv-5u2s
 
+### Vimium 
+
+Install https://github.com/philc/vimium extension to use Brave a la vim
 
