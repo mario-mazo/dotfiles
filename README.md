@@ -109,17 +109,22 @@ asdf plugin-add golang
 asdf plugin-add rust
 asdf plugin-add python
 ```
+
 #### elixir
+
 get the list of all version with `asdf list all erlang`
 install latest erlang and corresponding elixir and make them global
+
 ```
 asdf install erlang xxxx
 asdf global erlang xxxx
 asdf install elixir xxxx
 asdf global elixir xxxx
+```
 
 #### python
 If you use pip to install a module like ipython that has binaries. You will need to run `asdf reshim python` for the binary to be in your path.
+
 ```
 asdf install python xxxxx
 asdf global python  xxxxx
