@@ -11,7 +11,7 @@
 ```sh
 xcode-select --install
 
-brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat
+brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat cmake
 
 brew install --cask flux amethyst iterm2 stretchly brave-browser
 
@@ -97,16 +97,36 @@ In Settings > Profiles > Colors
 Then change blue color for `268bd2` so the directories are more readable
 
 ### asdf
-- brew install asdf
+Install languages:
 
-- asdf plugin add java #install tls 11
-- asdf plugin-add erlang
-- asdf plugin-add nodejs
-- asdf plugin-add elixir
-- asdf plugin-add golang
-- asdf plugin-add rust
+asdf.sh
+```
+asdf plugin add java #install tls 11
+asdf plugin-add erlang
+asdf plugin-add nodejs
+asdf plugin-add elixir
+asdf plugin-add golang
+asdf plugin-add rust
+asdf plugin-add python
+```
+#### elixir
+get the list of all version with `asdf list all erlang`
+install latest erlang and corresponding elixir and make them global
+```
+asdf install erlang xxxx
+asdf global erlang xxxx
+asdf install elixir xxxx
+asdf global elixir xxxx
+
+#### python
+If you use pip to install a module like ipython that has binaries. You will need to run `asdf reshim python` for the binary to be in your path.
+```
+asdf install python xxxxx
+asdf global python  xxxxx
+```
 
 
+if you install packages with pip
 ### Add developer tools to system-preferences / security & privacy / privacy
 
 In settings, in system-preferences / security & privacy / privacy , there is a permission called "Developer Tools". if i add Terminal to that permission, the slowdown does not happen anymore.
@@ -156,6 +176,18 @@ Note: When a shortcut is taken it doesnt allow you to add the new one
 
 ### Emacs
 - install doom, use files from this repo, but DO NOT copy paste them. Doom adds new stuff often, check whats new
+
+init.el
+```
+vterm
+lsp
+tree-sitter
+(elixir +lsp +tree-sitter)
+(python +lsp +tree-sitter)
+```
+
+Folding with lsp for elixir
+https://blog.evalcode.com/enable-elixir-code-folding-in-doom-emacs/
 
 ### nvim
 If you want to add something you will need need to modify `init.lua` before you open nvim for the first time and add
