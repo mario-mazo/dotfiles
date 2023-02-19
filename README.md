@@ -158,6 +158,9 @@ Note: When a shortcut is taken it doesnt allow you to add the new one
 If you want to add something you will need need to modify `init.lua` before you open nvim for the first time and add
 what you need, like elixr, zig, Markdown, Json, etc.
 
+You will need to comment out the line `{ import = 'custom.plugins' }` to remove the warning that you dont have custom
+scripts
+
 Notes:
 - https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
 - https://www.youtube.com/watch?v=stqUbv-5u2s
