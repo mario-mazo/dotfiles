@@ -93,6 +93,9 @@ In Settings > Profiles > Text
 - Ascii:  JetBrains Mono 16
 - Non-ascii: Hack Nerd Font Mono 16
 
+In Settings > Profiles > Colors
+Then change blue color for `268bd2` so the directories are more readable
+
 ### asdf
 - brew install asdf
 
@@ -164,13 +167,5 @@ scripts
 Notes:
 - https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
 - https://www.youtube.com/watch?v=stqUbv-5u2s
-
-
-
-
-
-
-
-
 
 
