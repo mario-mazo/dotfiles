@@ -10,7 +10,7 @@
 
 ```sh
 
-brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxmac zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat cmake
+brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxwidgets zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat cmake
 
 brew install --cask flux amethyst iterm2 stretchly brave-browser raycast
 
