@@ -47,7 +47,7 @@ curl -o ~/.config/nvim/init.lua https://raw.githubusercontent.com/nvim-lua/kicks
 
 In `.zshrc`
 
-```
+```sh
 ################# mario.mazo ###########################
 
 # elixir
@@ -58,7 +58,7 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 eval "$(starship init zsh)" 
 
 #asdf
-. /usr/local/opt/asdf/libexec/asdf.sh
+. $(brew --prefix)/opt/asdf/libexec/asdf.sh
 
 
 # zsh and shell
@@ -77,8 +77,8 @@ fi
 
 ## Syntax highlight
 autoload -Uz compinit && compinit
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## Case insensitive auto-complete with oh-my-zh
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
