@@ -31,8 +31,8 @@ curl -o ~/.gitignore https://raw.githubusercontent.com/github/gitignore/main/Glo
 git config --global core.excludesfile ~/.gitignore
 git config --global init.defaultBranch main
 
-
-compaudit | xargs chmod g-w
+# only if zsh is bitching
+#compaudit | xargs chmod g-w
 
 mkdir -p ~/personal
 mkdir -p ~/bin
