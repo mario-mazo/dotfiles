@@ -10,7 +10,7 @@
 
 ```sh
 
-brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxwidgets zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat cmake
+brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxwidgets zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat cmake nushell
 
 brew install --cask flux amethyst iterm2 stretchly brave-browser raycast
 
@@ -42,6 +42,14 @@ curl -o ~/.config/nvim/init.lua https://raw.githubusercontent.com/nvim-lua/kicks
 ```
 
 ## Configure apps
+
+### nushell
+
+make it default
+```
+Terminal.app	macOS	Open Terminal > Preferences. Ensure you are on the Profiles tab, which should be the default tab. In the right-hand panel, select the Shell tab. Tick Run command, put the path to Nu in the textbox, and untick Run inside shell.
+iTerm2	macOS	Open iTerm > Preferences. Select the Profiles tab. In the right-hand panel under Command, change the dropdown from Login Shell to Custom Shell, and put the path to Nu in the textbox.
+```
 
 ### zsh
 
