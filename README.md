@@ -51,6 +51,36 @@ Terminal.app	macOS	Open Terminal > Preferences. Ensure you are on the Profiles t
 iTerm2	macOS	Open iTerm > Preferences. Select the Profiles tab. In the right-hand panel under Command, change the dropdown from Login Shell to Custom Shell, and put the path to Nu in the textbox.
 ```
 
+vim $nu.config-path
+```nu
+
+# update this part
+    cursor_shape: {
+        emacs: line # block, underscore, line, blink_block, blink_underscore, blink_line (line is the default)
+        vi_insert: line # block, underscore, line , blink_block, blink_underscore, blink_line (block is the default)
+        vi_normal: block # block, underscore, line, blink_block, blink_underscore, blink_line (underscore is the default)
+    }
+
+    edit_mode: vi # emacs, vi
+    algorithm: "fuzzy"    # prefix or fuzzy
+
+
+# add at the end
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/opt/homebrew/bin:~/.elixir-ls/release')
+
+use ~/.cache/starship/init.nu
+
+$env.ASDF_NU_DIR = (brew --prefix asdf | str trim | into string | path join 'libexec')
+source /opt/homebrew/opt/asdf/libexec/asdf.nu
+
+$env.ERL_AFLAGS = '-kernel shell_history enabled'
+
+
+alias vim = nvim
+alias cat = bat
+
+```
+
 ### zsh
 
 In `.zshrc`
