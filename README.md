@@ -12,7 +12,8 @@
 
 brew install neovim coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc unzip curl wxwidgets zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions libgccjit gpg asdf fd ripgrep starship bat cmake nushell
 
-brew install --cask flux amethyst iterm2 stretchly brave-browser raycast
+brew install --cask flux amethyst iterm2 brave-browser raycast
+brew install --cask --no-quarantine stretchly
 
 
 brew tap homebrew/cask-fonts
